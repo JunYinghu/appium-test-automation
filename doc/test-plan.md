@@ -10,10 +10,16 @@
    - Clicks Accept & continue button on welcome page
    - Key in search keyword in default page (google screen)
    
-
-4 Tested deivce information:
+4 Test tools / ENV
+   - Notepad++
+   - Python
+   - Appium   
+   
+5 Tested deivce information:
    - Smasung Note 5
    - Version 6.0.1
+
+   
    
    
    
