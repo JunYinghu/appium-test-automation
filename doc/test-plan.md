@@ -8,7 +8,7 @@
 
    - Opens Chrome browser on Android device
    - Clicks Accept & continue button on welcome page
-   - Key in search keyword in default page (google screen)
+   - Keys in search keyword in default page (google screen)
    
 4 Test tools / ENV
    - Notepad++
