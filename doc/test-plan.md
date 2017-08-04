@@ -1,9 +1,19 @@
 # Chrome Android Test Automation Plan
 
-1. FIXME
+1  This project is designed to make more pratice on automation testing.
 
-FIXME
+2  This automation test scripts were written in Python.
 
-2. Another Test Case
+3  There are 3 functions to be tested
 
-Anothed Test Case Description
+   - Opens Chrome browser on Android device
+   - Clicks Accept & continue button on welcome page
+   - Key in search keyword in default page (google screen)
+   
+
+4 Tested deivce information:
+   - Smasung Note 5
+   - Version 6.0.1
+   
+   
+   
