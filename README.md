@@ -1,6 +1,6 @@
 # chrome-android-test-automation
-This is an automation project to test chrome funcation
+This is an automation project to test chrome function and launch phone contact to 
 
-There are 2 types scripts
-  - Written by Python
-  - Written by JavaScript
+There are 2 types’ scripts
+  - Written by Python - test chrome function 
+  - Written by JavaScript - test launch phone contact and make a phone
