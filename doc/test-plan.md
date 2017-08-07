@@ -19,7 +19,7 @@
      Wait 10 second to confirm search result as the above
    
 4 Test tools / ENV
-   - Notepad++
+   - Pycharm
    - Python
    - Appium   
    
