@@ -5,7 +5,7 @@
 
 2  This automation test scripts were written in Python.
 
-#  Case 1: [Script](src/TestScript_1.py)
+#  Case 1: [Script](../src/TestScript_1.py)
 
 1  The script is doing this:
 
@@ -32,7 +32,7 @@
 
    
     
-#  Case 2:[Script](src/TestScript_Phone.py)
+#  Case 2:[Script](../src/TestScript_Phone.py)
    
    1  The script is doing this:
       - Launch Contacts window
