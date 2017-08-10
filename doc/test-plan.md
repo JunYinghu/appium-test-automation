@@ -40,13 +40,12 @@
     - if there is no response within 30 seconds, call will be ended.
     - Close contacts windwo
    
-    
 2 Test tools / ENV
-    - Pycharm
-    - Python
-    - Appium   
+   - Pycharm
+   - Python
+   - Appium   
    
 3 Tested device information:
-    - Smasung Note 5
-    - Version 7.0  
+   - Smasung Note 5
+   - Version 6.0.1
    
