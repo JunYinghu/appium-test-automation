@@ -4,3 +4,7 @@ This is an automation project to test chrome function and launch phone contact t
 There are 2 types’ scripts
   - Written by Python - test chrome function 
   - Written by JavaScript - test launch phone contact and make a phone
+
+
+## Documentation
+- [Test plan](doc/test-plan.md)
