@@ -4,7 +4,7 @@
 
 2  This automation test scripts were written in Python.
 
-3  There are 5 functions to be tested
+3  The script is doing this:
 
    - Opens Chrome browser on Android device
    - Search Accept&continue button via find_element_by_id,
