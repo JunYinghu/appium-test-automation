@@ -1,10 +1,13 @@
 # Chrome Android Test Automation Plan
 
+
 1  This project is designed to make more practice on automation testing.
 
 2  This automation test scripts were written in Python.
 
-3  The script is doing this:
+#  Case 1:
+
+1  The script is doing this:
 
    - Opens Chrome browser on Android device
    - Search Accept&continue button via find_element_by_id,
@@ -18,16 +21,32 @@
    - Exit from browser
      Wait 10 second to confirm search result as the above
    
-4 Test tools / ENV
+2 Test tools / ENV
    - Pycharm
    - Python
    - Appium   
    
-5 Tested device information:
+3 Tested device information:
    - Smasung Note 5
    - Version 6.0.1
 
    
+    
+#  Case 2:
    
+   1  The script is doing this:
+      - Launch Contacts window
+      - Dail Phone number and make a call
+      - if there is no response within 30 seconds, call will be ended.
+      - Close contacts windwo
    
+    
+   2 Test tools / ENV
+     - Pycharm
+     - Python
+     - Appium   
+   
+   3 Tested device information:
+     - Smasung Note 5
+     - Version 7.0  
    
