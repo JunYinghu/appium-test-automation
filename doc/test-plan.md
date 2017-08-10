@@ -27,7 +27,7 @@
    - Appium   
    
 3 Tested device information:
-   - Smasung Note 5
+   - Samsung Note 5
    - Version 6.0.1
 
    
@@ -37,8 +37,8 @@
 1  The script is doing this:
    - Launch Contacts window
    - Dail Phone number and make a call
-   - if there is no response within 30 seconds, call will be ended.
-   - Close contacts window
+   - If there is no response within 30 seconds, call will be ended.
+   - Close Contacts window
    
 2 Test tools / ENV
    - Pycharm
@@ -46,6 +46,6 @@
    - Appium   
    
 3 Tested device information:
-   - Smasung Note 5
+   - Samsung Note 5
    - Version 6.0.1
    
