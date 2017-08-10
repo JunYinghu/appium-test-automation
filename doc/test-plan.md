@@ -35,10 +35,10 @@
 ##  Case 2 - [Script](../src/TestScript_Phone.py)
    
    1  The script is doing this:
-      - Launch Contacts window
-      - Dail Phone number and make a call
-      - if there is no response within 30 seconds, call will be ended.
-      - Close contacts windwo
+     - Launch Contacts window
+     - Dail Phone number and make a call
+     - if there is no response within 30 seconds, call will be ended.
+     - Close contacts windwo
    
     
    2 Test tools / ENV
