@@ -10,15 +10,13 @@
 1  The script is doing this:
 
    - Opens Chrome browser on Android device
-   - Search Accept&continue button via find_element_by_id,
+   - Search Accept&Continue button via find_element_by_id,
      Click the button going to user email registration page
-   - If text matches 'sing in...' then user to leave the page user does not want
-     Clicks 'No Thanks' button to leave
-  
-   - Set search keyword in search box on default page (google screen)
-     tap on search keyword via action move
-     
-   - Exit from browser
+   - If text matches 'sing in...' then user to escape the page user does not want.
+     Clicks 'No Thanks' button to exit
+   - Set search keyword in search box on default page (google screen).
+     tap on search keyword via action move     
+   - Exit from browser,
      Wait 10 second to confirm search result as the above
    
 2 Test tools / ENV
