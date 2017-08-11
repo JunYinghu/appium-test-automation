@@ -26,7 +26,7 @@
    
 3 Tested device information:
    - Samsung Note 5
-   - Version 6.0.1
+   - Version 7.0
 
    
     
@@ -45,5 +45,5 @@
    
 3 Tested device information:
    - Samsung Note 5
-   - Version 6.0.1
+   - Version 7.0
    
