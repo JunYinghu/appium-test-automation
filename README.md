@@ -1,4 +1,4 @@
-# chrome-android-test-automation
+# Android-test-automation
 This is an automation project to test chrome function and launch phone contact to make a call
 
 There are 2 types’ scripts for Android device
