@@ -1,0 +1,14 @@
+[sendmessage]
+recipient=recipients_editor_to
+sendmessage=editor_body
+attach=attach_button
+sendbutton=send_button
+emoji=emoji_button
+record=record_button
+stoprecord=Stop
+takeimage=capture_button
+
+[list]
+arrow=actionbar_arrow
+searchtext=search_src_text
+
