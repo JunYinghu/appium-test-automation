@@ -3,7 +3,6 @@ import unittest
 
 from appium import webdriver
 
-from ContactList import ContactList
 from SendMessage import SendMessageAll
 
 
@@ -20,7 +19,6 @@ class SimpleAndroidTests(unittest.TestCase):
         desired_caps['appActivity'] = 'com.android.mms.ui.ConversationComposerClassification'
         # desired_caps['app'] = PATH('../../../apps/selendroid-test-app.apk')
         # cls.driver = webdriver.Remote('http://localhost:4723/wd/hub', desired_caps)
-
         cls.driver = webdriver.Remote('http://localhost:4723/wd/hub', desired_caps)
         cls.SendMessageAllProv = SendMessageAll(cls.driver, cls.config)
 
@@ -29,20 +27,16 @@ class SimpleAndroidTests(unittest.TestCase):
         self.driver.quit()
 
     def test_01_send_message(self):
-        self.SendMessageAllProv.sendText()
-        self.SendMessageAllProv.submitMssage()
-        self.SendMessageAllProv.sendImage()
-        self.SendMessageAllProv.submitMssage()
-        self.SendMessageAllProv.takeImage()
-        self.SendMessageAllProv.submitMssage()
-        self.SendMessageAllProv.takeVideo()
-        self.SendMessageAllProv.submitMssage()
-        self.SendMessageAllProv.goToContact()
-        self.SendMessageAllProv.checkList()
-
-
-
-
+        self.SendMessageAllProv.sendtext()
+        self.SendMessageAllProv.submitmssage()
+        self.SendMessageAllProv.sendimage()
+        self.SendMessageAllProv.submitmssage()
+        self.SendMessageAllProv.takeimage()
+        self.SendMessageAllProv.submitmssage()
+        self.SendMessageAllProv.takevideo()
+        self.SendMessageAllProv.submitmssage()
+        self.SendMessageAllProv.gotocontact()
+        self.SendMessageAllProv.checklist()
 
 
 if __name__ == '__main__':

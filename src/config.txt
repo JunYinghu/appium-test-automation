@@ -13,9 +13,4 @@ cramer=/hierarchy/android.widget.FrameLayout/android.widget.FrameLayout[2]/andro
 [list]
 arrow=actionbar_arrow
 searchtext=search_src_text
-
 phonenumber=from
-
-
-subject
-
