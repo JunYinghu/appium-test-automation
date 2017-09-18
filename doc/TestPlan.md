@@ -1,4 +1,4 @@
-# Selenium Test Automation  - Android (Samsung Note5)
+# Selenium + Appium Test Automation  - Android (Samsung Note5)
 
 [TestScriptMsge.py](src/TestScriptMsg.py)
 
@@ -30,5 +30,5 @@
    - Appium
    
 5 Tested information:
-   - Android (Smasung Note5)
+   - Android (Samsung Note5)
    - Android version 7.0
