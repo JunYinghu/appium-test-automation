@@ -9,7 +9,7 @@
       - how to instantiate class
       - how to inherit class
       - how to set constructor to initialize an instance of a class
-      - Get xpath / id of elements from config file
+      - Get xpath / id / accessibility id of elements from config file
 
 3  The script is doing:
    - Open Message
