@@ -7,8 +7,15 @@ emoji=emoji_button
 record=record_button
 stoprecord=Stop
 takeimage=capture_button
+moremenu=More options
+cramer=/hierarchy/android.widget.FrameLayout/android.widget.FrameLayout[2]/android.widget.HorizontalScrollView/android.widget.LinearLayout/android.support.v7.app.d[1]/android.widget.TextView
 
 [list]
 arrow=actionbar_arrow
 searchtext=search_src_text
+
+phonenumber=from
+
+
+subject
 

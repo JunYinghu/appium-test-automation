@@ -5,7 +5,7 @@
 
 2  This automation test scripts were written in Python.
 
-##  Case 1 - [Script](../src/TestScript_1.py)
+##  Case 1 - [Script](../src/TestScriptWeb.py)
 
 1  The script is doing this:
 
@@ -25,12 +25,10 @@
    - Appium   
    
 3 Tested device information:
-   - Samsung Note 5
+   - Samsung Note5
    - Version 7.0
 
-   
-    
-##  Case 2 - [Script](../src/TestScript_Phone.py)
+##  Case 2 - [Script](../src/TestScriptPhoneCall.py)
    
 1  The script is doing this:
    - Launch Contacts window
@@ -44,6 +42,28 @@
    - Appium   
    
 3 Tested device information:
-   - Samsung Note 5
+   - Samsung Note5
    - Version 7.0
    
+
+##  Case 3 - [Script](../src/TestScriptMsm.py)
+1  Open Message
+  - Set a phone number starting conversation
+     - send text message
+     - send attachment from Gallery
+     - take image via camera and send it
+     - take a video via camera and sent it
+
+    - Go back to conversation list
+        - look for the phone number and delete conversation
+
+    - Exit from message
+
+2 Test tools / ENV
+   - Pycharm
+   - Python
+   - Appium
+
+3 Tested device information:
+   - Samsung Note5
+   - Version 7.0
