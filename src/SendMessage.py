@@ -64,13 +64,13 @@ class SendMessageAll(GetPath):
     def takevideo(self):
         # self.selectRecipient()
         time.sleep(5)
-        #self.clickAttBut()
-        #self.driver.get_screenshot_as_file('record.png')
-        #self.driver.tap([(200, 1883)])
+        # self.clickAttBut()
+        # self.driver.get_screenshot_as_file('record.png')
+        # self.driver.tap([(200, 1883)])
         time.sleep(2)
-        #cramerbut = 'cramer'
-        #takeimage = self.driver.find_element_by_xpath(self.getPath(section, cramerbut))
-        #takeimage.click()
+        # cramerbut = 'cramer'
+        # takeimage = self.driver.find_element_by_xpath(self.getPath(section, cramerbut))
+        # takeimage.click()
         recordstartid = 'record'
         recordstart = self.driver.find_element_by_id(self.getPath(section, recordstartid))
         recordstart.click()
@@ -83,6 +83,7 @@ class SendMessageAll(GetPath):
 
     def gotocontact(self):
         time.sleep(2)
+        global section
         section = 'list'
         gobackid = 'arrow'
         goback = self.driver.find_element_by_id(self.getPath(section, gobackid))
@@ -90,10 +91,11 @@ class SendMessageAll(GetPath):
         time.sleep(5)
 
     def checklist(self):
-        section = 'list'
-        pageSource = self.driver.page_source
-        searchtextbox = 'searchtext'
-        searchtextboxinput = self.driver.find_element_by_id(self.getPath(section, searchtextbox))
+        # global section
+        # section = 'list'
+        # pageSource = self.driver.page_source
+        # searchtextbox = 'searchtext'
+        # searchtextboxinput = self.driver.find_element_by_id(self.getPath(section, searchtextbox))
         # searchtextboxinput.set_value('3')
         action = TouchAction(self.driver)
         action.long_press(x=669, y=445, duration=2000).perform()
