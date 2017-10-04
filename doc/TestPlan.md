@@ -17,7 +17,7 @@
          - send text message
          - send attachment from Gallery
          - take image via camera and send it
-         - take a video via camera and sent it
+         - take a video via camera and send it
 
    - Go back to conversation list
         - look for the phone number and delete conversation
