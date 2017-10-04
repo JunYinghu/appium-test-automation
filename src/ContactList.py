@@ -2,7 +2,7 @@ import time
 
 from appium.webdriver.common.touch_action import TouchAction
 
-from SendMessage import SendMessageAll
+from src.utiliDict.SendMessage import SendMessageAll
 
 section = 'list'
 

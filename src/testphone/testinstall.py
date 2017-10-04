@@ -10,7 +10,7 @@ class TestInstall(unittest.TestCase):
         desired_caps['platformName'] = 'Android'
         desired_caps['platformVersion'] = '4.1.2'
         desired_caps['deviceName'] = 'GT-I9300'
-        desired_caps['app'] = 'D:/cygwin64/home/jy/appium-test-automation/src/app/VidMate.apk'
+        desired_caps['app'] = 'D:/cygwin64/home/jy/appium-test-automation/src/app/com.tuneecrew.music.downloader.apk'
         #desired_caps['appPackage'] = 'com.android.mms'
         #desired_caps['appActivity'] = 'com.android.mms.ui.ConversationComposer'
 

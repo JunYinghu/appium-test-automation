@@ -3,14 +3,14 @@ import unittest
 
 from appium import webdriver
 
-from SendMessage import SendMessageAll
+from src.utiliDict.SendMessage import SendMessageAll
 
 
 class SimpleAndroidTests(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
         cls.config = ConfigParser.RawConfigParser(allow_no_value=True)
-        cls.config.read('config.txt')
+        cls.config.read('utiliDict/config.txt')
         desired_caps = {}
         desired_caps['platformName'] = 'Android'
         desired_caps['platformVersion'] = '7.0'
