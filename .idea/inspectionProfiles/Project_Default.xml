@@ -5,6 +5,7 @@
       <option name="ignoredIdentifiers">
         <list>
           <option value="src.testphone.Arwiz.Arwiz.driver" />
+          <option value="src.TestOPPOWebChat.SimpleAndroidTests" />
         </list>
       </option>
     </inspection_tool>
